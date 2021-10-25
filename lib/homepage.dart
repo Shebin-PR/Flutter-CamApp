@@ -47,10 +47,15 @@ class _HomePageState extends State<HomePage> {
               )
             : Image.file(_image!),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: getImage,
-        tooltip: "increment",
-        child: const Icon(Icons.camera_alt),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(right: 160),
+        child: FloatingActionButton(
+          backgroundColor: Colors.brown,
+          foregroundColor: Colors.pink[50],
+          onPressed: getImage,
+          tooltip: "increment",
+          child: const Icon(Icons.camera_alt),
+        ),
       ),
     );
   }
