@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
             : Image.file(_image!),
       ),
       floatingActionButton: Padding(
-        padding: const EdgeInsets.only(right: 160),
+        padding: const EdgeInsets.only(right: 156),
         child: FloatingActionButton(
           backgroundColor: Colors.brown,
           foregroundColor: Colors.pink[50],
